@@ -9,7 +9,7 @@ const SvmU5001DayPiwData = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://node-server-svm.onrender.com/getSvmU5001DayPiwData');  // Updated endpoint
+                const response = await axios.get('https://svm-server1.onrender.com/getSvmU5001DayPiwData');  // Updated endpoint
                 setData(response.data);
                 setLoading(false);
             } catch (error) {
